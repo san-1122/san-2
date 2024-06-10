@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to bottom, #ffff7e, #FFFFFF);
+  }
+
+  
+.buttonanima {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    background-color: #EEB341;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Inter;
+    border: 2px solid #000000;
+    border-radius: 6px;
+}
+
+.buttonanima:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+    background-color: #534D4D;
+    color: #EEB341;
+    /* width: 250px;
+    height: 60px; */
+    border-color: #EEB341;
+    
+}
+
+a {
+    text-decoration:none;
+}

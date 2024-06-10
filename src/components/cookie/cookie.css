@@ -1,0 +1,36 @@
+.cookie-consent{
+    font-size: 15px;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    right: 0;
+     /* ตำแหน่งจากด้านบนของหน้าจอ */
+    left: auto;
+    align-items: center;
+    display: flex;
+     /* ตำแหน่งจากด้านซ้ายของหน้าจอ */
+    text-align: center;
+    width: 30%;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* ลำดับการแสดงผลที่สูงขึ้น */
+    /* margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+}
+.col-sm-4{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.but{
+    border-radius: 20px;
+    padding: 4px;
+    background-color:rgb(244, 237, 41);
+}
